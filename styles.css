@@ -1,0 +1,91 @@
+.slogan-container {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height:800px;
+    background-image: url("assets/AwningThree.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+  .family-container{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 600px;
+    background-image: url("assets/WilliamsFamily.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 37%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+
+.concrete-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .concrete-text {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    background-color: #bebc5e;
+    color: #0e0906;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: x-large;
+    padding: 40px;
+  }
+
+  .concrete-image {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 75%;
+    background-image: url("assets/DrivewayAfter.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 75px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-left: 25px;
+  }
+
+  .remodel-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .remodel-image {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    background-image: url("assets/AwningTwo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 75px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-right: 25px;
+  }
