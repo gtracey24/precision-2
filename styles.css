@@ -277,12 +277,25 @@ li a:hover {
       height: 600px;
     }
     .concrete-text {
-      font-size: 2.5vh;
+      font-size: 2vh;
     }
     .family-container {
+      background-attachment:unset;
       font-size: 4vh;
-      width: calc(100% - 40px); /* Adjust for 20px padding on each side */
+      width: calc(100% - 40px);
       padding: 20px;
+      background-position: 60% 37%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-position: 60% 37%;
+      background-size: cover; 
+    }
+    .services-parallax{
+      background-attachment:unset;
     }
     .concrete-image {
       font-size: 4.5vh;
@@ -300,13 +313,13 @@ li a:hover {
       padding: 5px;
     }
     .slogan-container {
-      font-size: 8vh;
+      font-size: 7vh;
     }
     .need-quote {
       width: 40%
     }
     .contact-block {
-      font-size:3vh;
+      font-size:2.1vh;
     }
     
   }
