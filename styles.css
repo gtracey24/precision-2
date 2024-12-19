@@ -154,6 +154,8 @@ li a:hover {
     font-size: 5vw;
     color: #ffffff;
     margin-right: 25px;
+    width: calc(100% - 40px); /* Adjust for 20px padding on each side */
+    padding: 20px;
     text-shadow:
     1px 1px 0 #000,
     -1px 1px 0 #000,
@@ -182,6 +184,8 @@ li a:hover {
     font-size: 5.5vw;
     color: #ffffff;
     margin-left: 25px;
+    width: calc(100% - 40px); /* Adjust for 20px padding on each side */
+    padding: 20px;
     text-shadow:
     1px 1px 0 #000,
     -1px 1px 0 #000,
@@ -231,7 +235,7 @@ li a:hover {
     padding: 20px;
   }
 
-  button {
+  .button {
     background-color:darkblue;
 
     border: none;
@@ -245,7 +249,7 @@ li a:hover {
     transition-duration: 0.4s;
   }
 
-  button:hover {
+  .button:hover {
     background-color: #e7e7e7; color: black;
     color: black;
   }
