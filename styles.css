@@ -124,7 +124,7 @@ li a:hover {
     font-size: 5vw;
     color: #ffffff;
     margin-left: 25px;
-    width: calc(100% - 40px); /* Adjust for 20px padding on each side */
+    width: calc(90% - 40px); /* Adjust for 20px padding on each side */
     padding: 20px;
     text-shadow:
     1px 1px 0 #000,
@@ -172,7 +172,7 @@ li a:hover {
 
   .handyman-image {
     font-family: 'Bebas Neue';
-    width: 60%;
+
     background-image: url("assets/StairsBefore.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -184,7 +184,7 @@ li a:hover {
     font-size: 5.5vw;
     color: #ffffff;
     margin-left: 25px;
-    width: calc(100% - 40px); /* Adjust for 20px padding on each side */
+    width: calc(150% - 40px); /* Adjust for 20px padding on each side */
     padding: 20px;
     text-shadow:
     1px 1px 0 #000,
@@ -194,7 +194,7 @@ li a:hover {
   }
 
   .services-parallax {
-    background-image: url("assets/Real\ Marble\ White\ 07\ -\ 16x9.jpg");
+    background-image: url("assets/Marble\ Flow\ Texture\ 20\ -\ 16x9.jpg");
     /* padding-top: 20px; */
     min-height: 500px;
     /* Create the parallax effect */
