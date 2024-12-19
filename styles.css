@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xxx-large;
+    font-size: 8vw;
     color: #ffffff;
     margin-bottom: 100px;
   }
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    font-size: xxx-large;
+    font-size: 5vw;
     color: #ffffff;
     margin-bottom: 100px;
   }
@@ -35,6 +35,7 @@
     flex-direction: row;
     width: 100%;
     margin-bottom: 25px;
+
   }
   
   .concrete-text {
@@ -47,13 +48,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-size: x-large;
-    padding: 40px;
+    /* font-size: x-large; */
+    font-size: 2.5vw;
+    padding: 15px
+ 
   }
 
   .concrete-image {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 75%;
+    width: 60%;
     background-image: url("assets/DrivewayAfter.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -62,7 +65,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    font-size: xxx-large;
+    font-size: 7vw;
     color: #ffffff;
     margin-left: 25px;
   }
@@ -85,7 +88,51 @@
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    font-size: xxx-large;
+    font-size: 7vw;
     color: #ffffff;
     margin-right: 25px;
   }
+
+  .handyman-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* margin-bottom: 25px; */
+  }
+
+  .handyman-image {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 60%;
+    background-image: url("assets/StairsBefore.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 75px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 5.5vw;
+    color: #ffffff;
+    margin-left: 25px;
+  }
+
+  .services-parallax {
+    background-image: url("assets/Real\ Marble\ White\ 07\ -\ 16x9.jpg");
+    /* padding-top: 20px; */
+    min-height: 500px;
+    /* Create the parallax effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 15px;
+  }
+
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
