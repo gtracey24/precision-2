@@ -261,7 +261,17 @@ li a:hover {
       object-fit: cover;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 925px) {
+    .contact-block {
+      font-size: 2vh;
+    }
+    
+  }
+
+  @media only screen and (max-width: 600px){
+    .contact-block {
+      font-size:1.2vh;
+    }
     .slogan-container {
       height: 600px;
     }
@@ -305,10 +315,9 @@ li a:hover {
       font-size: 7vh;
     }
     .need-quote {
-      width: 40%
+      width: 30%
     }
-    .contact-block {
-      font-size:2.1vh;
+    .contact-block-image {
+      width: 80%;
     }
-    
   }
