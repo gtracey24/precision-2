@@ -21,7 +21,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #111;
 }
@@ -51,30 +51,19 @@ li a:hover {
 
   .family-container{
     font-family: 'Old Standard TT';
-    /* width: 100%; */
     background-image: url("assets/WilliamsFamily.jpg");
     padding: 20px;
     min-height: 600px;
-    /* Create the parallax effect */
     background-attachment: fixed;
     background-position: 60% 37%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding-top: 15px;
-    padding-bottom: 15px;
-    padding: 15px; */
-    /* height: 600px;
-    background-image: url("assets/WilliamsFamily.jpg");
-    background-repeat: no-repeat;
-    background-position: 60% 37%;
-    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: end;
     font-size: 4vw;
     color: #ffffff;
     width: calc(100% - 40px); /* Adjust for 20px padding on each side */
-    /* padding: 20px; */
     margin-bottom: 50px;
     text-shadow:
     .5px .5px 0 #000,
@@ -194,7 +183,7 @@ li a:hover {
   }
 
   .services-parallax {
-    background-image: url("assets/Marble\ Flow\ Texture\ 20\ -\ 16x9.jpg");
+    background-image: url("assets/Real\ Marble\ White\ 08\ -\ 16x9.jpg");
     /* padding-top: 20px; */
     min-height: 500px;
     /* Create the parallax effect */
